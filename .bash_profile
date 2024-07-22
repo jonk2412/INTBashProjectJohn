@@ -142,3 +142,4 @@ fi
 
 # Kill process listening on port 8080
 kill -9 $(lsof -t -i :8080) 2>/dev/null
+#test
