@@ -8,8 +8,7 @@ if [ -f "$HOME_DIR/.token" ]; then
     echo "Warning: .token file has too open permissions"
   fi
 fi
-
-umask 002
+umask 2
 export COURSE_ID="__REPO_NAME__"
 export PATH="$PATH:/home/$USER/usercommands"
 current_time=$(date -u '+%Y-%m-%dT%H:%M:%S+00:00')
