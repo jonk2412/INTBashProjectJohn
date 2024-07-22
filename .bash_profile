@@ -9,7 +9,7 @@ if [ -f "$HOME_DIR/.token" ]; then
   fi
 fi
 
-#umask 002
+umask 006
 
 export COURSE_ID="__REPO_NAME__"
 export PATH="$PATH:/home/$USER/usercommands"
@@ -27,5 +27,3 @@ fi
 # Kill process listening on port 8080
 kill -9 $(lsof -t -i :8080) 2>/dev/null
 #test
-
-umask 002
