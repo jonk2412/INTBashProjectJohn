@@ -9,7 +9,7 @@ if [ -f "$HOME_DIR/.token" ]; then
 fi
 
 umask 007
-export COURSE_ID="DevOpsTheHardWay"
+export COURSE_ID="_REPO_NAME_"
 export PATH="$PATH:/home/$USER/usercommands"
 current_time=$(date -u '+%Y-%m-%dT%H:%M:%S+00:00')
 echo "The current date is: $current_time"
