@@ -1,4 +1,5 @@
-echo "Hallo $USER"
+#echo "Hallo $USER"
+echo "Hallo myuser"
 
 HOME_DIR="$HOME"
 if [ -f "$HOME_DIR/.token" ]; then
